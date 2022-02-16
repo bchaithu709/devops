@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+space {
+	margin: 510px 50px 10px 50px;
+}
+
+body {
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%,
+		rgba(0, 0, 0, 0.5) 50%), url(https://i.postimg.cc/YqFd6KWs/1.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.form_container {
+	height: 100%;
+	width: 100%;
+}
+
+.fields {
+	font-family: Arial;
+	border-bottom: 2px solid #ff7200;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: transparent;
+	font-size: 15px;
+	height: 25px;
+	width: 30%;
+	margin: 5px 0px 30px 0px;
+	color: white;
+	font-weight: bold;
+}
+
+.submit {
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin: 0% 50%;
+}
+
+.heading {
+	width: 30%;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	color: #ff7200;
+	font-size: 22px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: auto;
+	padding: 8px;
+}
+
+::placeholder {
+	color: white;
+	font-weight: bold;
+}
